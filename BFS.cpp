@@ -2,6 +2,9 @@
 #include<vector>
 #include<queue>
 using namespace std;
+// Time complexity for BFS - O(N)+O(2E)
+//Space complexity -  O(3N) ~ O(N), Space for queue data structure visited array and an adjacency list
+
 void bfs(vector<int>adj[],int start,vector<int>&vis)
 {
     queue<int>q;
